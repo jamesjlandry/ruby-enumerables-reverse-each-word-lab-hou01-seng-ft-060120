@@ -3,6 +3,6 @@ def reverse_each_word(string)
   new_array = []
   n_string.each do |jove| jove.reverse
   n_string << new_array
-  end
+end
   new_array
 end
