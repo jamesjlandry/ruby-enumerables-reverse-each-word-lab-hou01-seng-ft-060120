@@ -1,8 +1,6 @@
 def reverse_each_word(string)
-  n_string = string.split
-  new_array = []
-  n_string.each do |jove| jove.reverse!
-  new_array << jove
-end
-  new_array.join(" ")
-end
+    n_string = string.split
+    n_string.collect do |jove| jove.reverse!
+    end
+    n_string.join(" ")
+  end
